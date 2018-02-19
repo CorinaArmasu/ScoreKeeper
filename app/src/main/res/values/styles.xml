@@ -1,0 +1,94 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#2196F3</item>
+
+        <!-- darker variant for status bar) -->
+        <item name="colorPrimaryDark">#000000</item>
+
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#1976D2</item>
+
+    </style>
+
+    <style name="PlayerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_top</item>
+
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_player</item>
+    </style>
+
+    <style name="ScoreStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_score</item>
+    </style>
+
+    <style name="StrikeButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_margin</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="DoubleButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_margin</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="ResetButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/button_layout_margin</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="PlayerStyleL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_player_L</item>
+    </style>
+
+    <style name="ScoreStyleL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_size_score_L</item>
+    </style>
+
+    <style name="StrikeButtonStyleL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_margin_L</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="DoubleButtonStyleL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_margin_L</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+</resources>

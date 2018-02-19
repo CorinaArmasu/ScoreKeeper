@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bowling"
+    android:scaleType="fitXY">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/layout_width1"
+                android:layout_height="wrap_content"
+                android:layout_weight="@string/layout_weight"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/PlayerStyleL"
+                    android:text="@string/player_nameA" />
+
+                <TextView
+                    android:id="@+id/player_a_score"
+                    style="@style/ScoreStyleL"
+                    android:text="@string/text_score" />
+
+                <Button
+                    style="@style/StrikeButtonStyleL"
+                    android:onClick="addTenForPlayerA"
+                    android:text="@string/button1_text" />
+
+                <Button
+                    style="@style/DoubleButtonStyleL"
+                    android:onClick="addTwentyForPlayerA"
+                    android:text="@string/button2_text" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/layout_width1"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/view_margin_top"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="@dimen/layout_width2"
+                android:layout_height="wrap_content"
+                android:layout_weight="@string/layout_weight"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/PlayerStyleL"
+                    android:text="@string/player_nameB" />
+
+                <TextView
+                    android:id="@+id/player_b_score"
+                    style="@style/ScoreStyleL"
+                    android:text="@string/text_score" />
+
+                <Button
+                    style="@style/StrikeButtonStyleL"
+                    android:onClick="addTenForPlayerB"
+                    android:text="@string/button1_text" />
+
+                <Button
+                    style="@style/DoubleButtonStyleL"
+                    android:onClick="addTwentyForPlayerB"
+                    android:text="@string/button2_text" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="resetScore"
+            android:text="@string/button_reset_text"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+</ScrollView>

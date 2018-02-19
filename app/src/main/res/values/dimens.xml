@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_width1">0dp</dimen>
+    <dimen name="layout_width2">1dp</dimen>
+
+    <dimen name="padding">12dp</dimen>
+    <dimen name="text_size_player">24sp</dimen>
+    <dimen name="text_size_score">48sp</dimen>
+    <dimen name="layout_margin">40dp</dimen>
+    <dimen name="layout_margin_bottom">12dp</dimen>
+    <dimen name="view_width">1dp</dimen>
+    <dimen name="view_margin_top">16dp</dimen>
+    <dimen name="button_layout_margin">52dp</dimen>
+    <dimen name="text_size_player_L">28sp</dimen>
+    <dimen name="text_size_score_L">40sp</dimen>
+    <dimen name="layout_margin_L">8dp</dimen>
+    <dimen name="layout_margin_top">40dp</dimen>
+
+
+</resources>
