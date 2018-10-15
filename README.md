@@ -63,6 +63,11 @@ Code style:
 "There are no unnecessary blank lines.One variable is declared per declaration line.
 
 The code within a method is indented with respect to the method declaration line."
+
+![screenshot_20181014-221552](https://user-images.githubusercontent.com/34723009/46941153-224ba780-d073-11e8-81a7-285b416b73e8.png)
+![screenshot_20181014-221557](https://user-images.githubusercontent.com/34723009/46941162-2972b580-d073-11e8-9215-415996bc39cb.png)
+![screenshot_20181015-105235](https://user-images.githubusercontent.com/34723009/46941169-2d9ed300-d073-11e8-9ba0-247a2141ea7e.png)
+![screenshot_20181015-105241](https://user-images.githubusercontent.com/34723009/46941176-3099c380-d073-11e8-8c84-46553c8fcdee.png)
  
  
  
